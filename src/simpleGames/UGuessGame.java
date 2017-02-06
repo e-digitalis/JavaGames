@@ -8,7 +8,7 @@ public class UGuessGame {
 		
 		int randomNumber = (int) (Math.random() * 100) + 1;
 		int userGuess;
-		String stringGuess = JOptionPane.showInputDialog("Please enter a number between 1-1000:");	
+		String stringGuess = JOptionPane.showInputDialog("Please enter a number between 1-100:");	
 		userGuess = Integer.parseInt(stringGuess);
 		
 		while(userGuess != randomNumber){
